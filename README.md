@@ -22,7 +22,7 @@
 
 # 📖 School Library <a name="about-project"></a>
 
-This is a ruby school library application that is designed to record the books are in the library and who borrow them.
+This is a ruby school library application designed to record the books in the library and who borrows them.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -98,7 +98,8 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add Interface
+- [Feature 1]:Set up associations
+- [Feature 2]:Add basic UI
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
