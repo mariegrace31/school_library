@@ -98,7 +98,8 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add Interface
+- [Feature 1]:Set up associations
+- [Feature 2]:Add basic UI
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
