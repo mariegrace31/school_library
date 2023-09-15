@@ -28,9 +28,9 @@ class App
     print 'Name: '
     name = gets.chomp
     print 'Has parent permission? [Y/N]: '
-    has_permission = gets.chomp
-    permission_values = %w[n N]
-    student = Student.new(age, name, permission_values.include?(has_permission))
+    has_permission = gets.chomp.upcase
+    permission_values = %w[N NO]
+    student = Student.new(age, name, !permission_values.include?(has_permission))
     @people.push(student)
   end
 
