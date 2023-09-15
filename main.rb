@@ -33,7 +33,7 @@ def execute_option(app, number)
   when 5
     app.create_rental
   when 6
-    app.get_rental_option
+    app.rental_option
   end
 end
 
