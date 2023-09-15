@@ -1,72 +1,40 @@
-require_relative 'app'
+require './app'
+app = App.new
 
-def display_menu
-  puts 'Please choose an option by entering a number:'
-  puts '1. List all books'
-  puts '2. List all people'
-  puts '3. Create a person'
-  puts '4. Create a book'
-  puts '5. Create a rental'
-  puts '6. List rentals for a given person ID'
-  puts '7. Quit'
-end
-
-def list_books(app)
-  app.list_books
-end
-
-def list_people(app)
-  app.list_people
-end
-
-def create_person(app)
-  app.create_person
-end
-
-def create_book(app)
-  app.create_book
-end
-
-def create_rental(app)
-  app.create_rental
-end
-
-def list_rentals_for_person(app)
-  app.list_rentals_for_person
-end
-
-def exit_program(_app = nil)
-  puts 'Thank you for using this app.'
-  exit
-end
-
-OPTIONS = {
-  1 => method(:list_books),
-  2 => method(:list_people),
-  3 => method(:create_person),
-  4 => method(:create_book),
-  5 => method(:create_rental),
-  6 => method(:list_rentals_for_person),
-  7 => method(:exit_program)
-}.freeze
-
-def execute_option(app, option)
-  handler = OPTIONS[option]
-  if handler
-    handler.call(app)
-  else
-    puts 'Invalid option. Please try again.'
-  end
-end
-
-def main
-  app = App.new
-
+def main(app)
+  puts 'Welcome to School Library App!'
   loop do
-    display_menu
-    option = gets.chomp.to_i
-    execute_option(app, option)
+    puts 'Please choose an option by entering a number:'
+    puts '1 - List all books'
+    puts '2 - List all people'
+    puts '3 - Create a person'
+    puts '4 - Create a book'
+    puts '5 - Create a rental'
+    puts '6 - List all rentals for a given person id'
+    puts '7 - Exit'
+
+    number = gets.chomp.to_i
+    break if number == 7
+
+    execute_option(app, number)
   end
 end
 
-main
+def execute_option(app, number)
+  case number
+  when 1
+    app.list_all_books
+  when 2
+    app.list_all_people
+  when 3
+    app.create_person_option
+  when 4
+    app.create_book_option
+  when 5
+    app.create_rental
+  when 6
+    app.get_rental_option
+  end
+end
+
+main(app)
