@@ -98,8 +98,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Feature 1]:Set up associations
-- [Feature 2]:Add basic UI
+- [Feature 1]:Catch a bug
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
