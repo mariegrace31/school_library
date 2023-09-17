@@ -94,15 +94,6 @@ Install this project with:
 - Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
 - LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [Feature 1]:Catch a bug
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
