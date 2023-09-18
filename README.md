@@ -92,7 +92,7 @@ Install this project with:
 
 - GitHub: [@mariegrace31](https://github.com/mariegrace31)
 - Twitter: [@mariegracebmg](https://twitter.com/mariegracebmg)
-- LinkedIn: [Marie Grace Bahati](https://linkedin.com/in/marie-gr%C3%A2ce-bahati-546765224)
+- LinkedIn: [Marie Grace Bahati](www.linkedin.com/in/marie-grâce-bahati)
 
 <!-- CONTRIBUTING -->
 
